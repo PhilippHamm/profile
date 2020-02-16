@@ -6,10 +6,10 @@ body {
 }
 
 .button {
-  border-radius: 1px;
-  color: #ECE8EF;
+  border-radius: 3px;
+  color: white;
   background-color: #4392F1;
-  padding: 5px;
+  padding: 5px 10px;
 }
 
 .container {
@@ -19,12 +19,12 @@ body {
 }
 
 .card {
-  margin: 40px 150px;
+  margin: 20px 150px;
   padding-top: 10px;
   position: relative;
   background-color: white;
   align-content: center;
-  border-radius: 30px;
+  border-radius: 15px;
   box-shadow: 2px 2px 2px rgb(235, 235, 235);
   padding-bottom: 20px
 }
@@ -40,11 +40,11 @@ a {
   color: #387780;
   display: inline-block;
   text-decoration: none;
-  font-size: 18px
+  font-size: 18px;
 }
 
 a:hover {
-  color: rgb(15, 15, 15)
+  opacity: 70%;
 }
 
 
@@ -59,12 +59,24 @@ a:hover {
 }
 
 
-li {
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
 
 }
 
 .round_avatar {
-  height:200px;
+  border-radius: 50%;
+  height: 150px;
+}
+
+li {
+
+};
+
+.round_avatar {
+  height:150px;
   border-radius: 100px;
 }
 
